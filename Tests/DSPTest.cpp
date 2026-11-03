@@ -1,0 +1,3 @@
+#include "../Source/KnockDSP.h"
+#include <iostream>
+int main(){for(double rate:{44100.,48000.,96000.,192000.})for(float amount:{0.f,.25f,.5f,1.f}){KnockDSP d;d.prepare(rate);double difference=0;for(int i=0;i<48000;++i){float signal=float(.8*std::sin(i*.06)*std::exp(-(i%12000)/1000.));float x[2]={signal,signal};d.tick(x,2,amount);if(!std::isfinite(x[0])||std::abs(x[0])>1.01||x[0]!=x[1])return 1;if(amount==0&&x[0]!=signal)return 2;difference+=std::abs(x[0]-signal);}if(amount>0&&difference<1)return 3;d.reset();for(int i=0;i<100;++i){float x[2]={};d.tick(x,2,amount);if(x[0]!=0||x[1]!=0)return 4;}}std::cout<<"DSP: unity at zero, stereo symmetry, silence, finite bounded output and processing verified at four sample rates.\n";}

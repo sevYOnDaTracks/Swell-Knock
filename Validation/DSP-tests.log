@@ -1,0 +1,19 @@
+Start testing: Nov 03 10:32 Paris, Madrid
+----------------------------------------------------------
+1/1 Testing: KnockDSP
+1/1 Test: KnockDSP
+Command: "C:/Users/EBOUA-02504/Desktop/Data/swell-knock/build/Release/KnockDSPTest.exe"
+Directory: C:/Users/EBOUA-02504/Desktop/Data/swell-knock/build
+"KnockDSP" start time: Nov 03 10:32 Paris, Madrid
+Output:
+----------------------------------------------------------
+DSP: unity at zero, stereo symmetry, silence, finite bounded output and processing verified at four sample rates.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"KnockDSP" end time: Nov 03 10:32 Paris, Madrid
+"KnockDSP" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 10:32 Paris, Madrid

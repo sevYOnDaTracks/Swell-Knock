@@ -1,0 +1,6 @@
+Swell Knock 0.1.0 â demonstration
+Kick synthetique original, 120 BPM. Vrai VST3 Windows charge et rendu hors ligne.
+Knock: 70 %. Mono WAV 48 kHz / 24 bits.
+Comparaison: 0-4 s avant, 4-8 s apres, 8-12 s avant, 12-16 s apres.
+Niveaux RMS egalises (pas une mesure LUFS). Compensation apres: -2.88 dB.
+Latence compensee: 6 echantillons.
