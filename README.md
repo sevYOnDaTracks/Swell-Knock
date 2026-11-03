@@ -1,5 +1,9 @@
 # Swell Knock — 0.1.0 prototype
 
+![Swell Knock à 70 % — Standalone Windows](docs/swell-knock-windows.png)
+
+*Capture réelle de la version Standalone Windows. L’entrée audio est coupée par défaut pour éviter le larsen.*
+
 Dépôt du projet : https://github.com/sevYOnDaTracks/Swell-Knock
 
 Un bouton : attaque, corps et saturation progressive pour les kicks.
